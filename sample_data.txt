@@ -1,64 +1,49 @@
-What Is Machine Learning?
-Machine learning (ML) is a discipline of artificial intelligence (AI) that provides machines with the ability to automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention.
+**Học Máy là gì?**
 
-Machine learning methods enable computers to operate autonomously without explicit programming. ML applications are fed with new data, and they can independently learn, grow, develop, and adapt.
+Học máy (Machine Learning - ML) là một lĩnh vực của trí tuệ nhân tạo (AI) giúp máy móc tự động học từ dữ liệu và kinh nghiệm quá khứ, đồng thời nhận diện các mô hình để đưa ra dự đoán với sự can thiệp tối thiểu từ con người.
 
-Machine learning derives insightful information from large volumes of data by leveraging algorithms to identify patterns and learn in an iterative process. ML algorithms use computation methods to learn directly from data instead of relying on any predetermined equation that may serve as a model.
+Các phương pháp học máy cho phép máy tính hoạt động tự động mà không cần lập trình rõ ràng. Các ứng dụng học máy nhận dữ liệu mới và có thể tự học, phát triển và thích nghi.
 
-The performance of ML algorithms adaptively improves with an increase in the number of available samples during the ‘learning’ processes. For example, deep learning is a sub-domain of machine learning that trains computers to imitate natural human traits like learning from examples. It offers better performance parameters than conventional ML algorithms.
+Học máy rút ra thông tin có giá trị từ các khối lượng dữ liệu lớn bằng cách sử dụng các thuật toán để nhận diện mô hình và học theo quá trình lặp lại. Các thuật toán học máy sử dụng các phương pháp tính toán để học trực tiếp từ dữ liệu thay vì dựa vào bất kỳ phương trình nào đã được xác định sẵn làm mô hình.
 
-While machine learning is not a new concept dating back to World War II when the Enigma Machine was used – the ability to apply complex mathematical calculations automatically to growing volumes and varieties of available data is a relatively recent development.
+Hiệu suất của các thuật toán học máy cải thiện một cách thích nghi với sự gia tăng số lượng mẫu dữ liệu trong quá trình "học". Ví dụ, học sâu (Deep Learning) là một nhánh con của học máy, huấn luyện máy tính bắt chước các đặc điểm tự nhiên của con người như học từ các ví dụ. Nó cung cấp các tham số hiệu suất tốt hơn so với các thuật toán học máy thông thường.
 
-Today, with the rise of big data, IoT, and ubiquitous computing, machine learning has become essential for solving problems across numerous areas, such as
+Mặc dù học máy không phải là một khái niệm mới, bắt đầu từ thời kỳ Thế chiến II với việc sử dụng máy Enigma – khả năng áp dụng các phép toán toán học phức tạp tự động đối với các khối lượng và loại dữ liệu ngày càng tăng là một sự phát triển tương đối gần đây.
 
-Computational finance (credit scoring, algorithmic trading)
-Computer vision (facial recognition, motion tracking, object detection)
-Computational biology (DNA sequencing, brain tumor detection, drug discovery)
-Automotive, aerospace, and manufacturing (predictive maintenance)
-Natural language processing (voice recognition)
-How does machine learning work?
-Machine learning algorithms are molded on a training dataset to create a model. As new input data is introduced to the trained ML algorithm, it uses the developed model to make a prediction. The prediction is checked for accuracy. Based on its accuracy, the ML algorithm is either deployed or trained repeatedly with an augmented training dataset until the desired accuracy is achieved.
-Types of Machine Learning
-Machine learning algorithms can be trained in many ways, with each method having its pros and cons. Based on these methods and ways of learning, machine learning is broadly categorized into four main types:
+Ngày nay, với sự phát triển của dữ liệu lớn (Big Data), Internet of Things (IoT) và điện toán phổ biến, học máy đã trở thành yếu tố thiết yếu trong việc giải quyết các vấn đề ở nhiều lĩnh vực khác nhau như:
 
-Types of Machine LearningTypes of Machine Learning
-1. Supervised machine learning
-This type of ML involves supervision, where machines are trained on labeled datasets and enabled to predict outputs based on the provided training. The labeled dataset specifies that some input and output parameters are already mapped. Hence, the machine is trained with the input and corresponding output. A device is made to predict the outcome using the test dataset in subsequent phases.
+- Tài chính tính toán (đánh giá tín dụng, giao dịch thuật toán)
+- Thị giác máy tính (nhận dạng khuôn mặt, theo dõi chuyển động, phát hiện đối tượng)
+- Sinh học tính toán (giải mã DNA, phát hiện khối u não, phát minh thuốc)
+- Ô tô, hàng không, và sản xuất (bảo trì dự đoán)
+- Xử lý ngôn ngữ tự nhiên (nhận dạng giọng nói)
 
-For example, consider an input dataset of parrot and crow images. Initially, the machine is trained to understand the pictures, including the parrot and crow’s color, eyes, shape, and size. Post-training, an input picture of a parrot is provided, and the machine is expected to identify the object and predict the output. The trained machine checks for the various features of the object, such as color, eyes, shape, etc., in the input picture, to make a final prediction. This is the process of object identification in supervised machine learning.
+**Học máy hoạt động như thế nào?**
 
-The primary objective of the supervised learning technique is to map the input variable (a) with the output variable (b). Supervised machine learning is further classified into two broad categories:
+Các thuật toán học máy được huấn luyện trên một bộ dữ liệu huấn luyện để tạo ra một mô hình. Khi dữ liệu đầu vào mới được đưa vào thuật toán ML đã huấn luyện, nó sử dụng mô hình đã phát triển để đưa ra dự đoán. Dự đoán này được kiểm tra độ chính xác. Dựa trên độ chính xác của nó, thuật toán ML sẽ được triển khai hoặc huấn luyện lại với bộ dữ liệu huấn luyện bổ sung cho đến khi đạt được độ chính xác mong muốn.
 
-Classification: These refer to algorithms that address classification problems where the output variable is categorical; for example, yes or no, true or false, male or female, etc. Real-world applications of this category are evident in spam detection and email filtering.
-Some known classification algorithms include the Random Forest Algorithm, Decision Tree Algorithm, Logistic Regression Algorithm, and Support Vector Machine Algorithm.
+**Các loại học máy**
 
-Regression: Regression algorithms handle regression problems where input and output variables have a linear relationship. These are known to predict continuous output variables. Examples include weather prediction, market trend analysis, etc.
-Popular regression algorithms include the Simple Linear Regression Algorithm, Multivariate Regression Algorithm, Decision Tree Algorithm, and Lasso Regression.
+Các thuật toán học máy có thể được huấn luyện theo nhiều cách khác nhau, với mỗi phương pháp có những ưu và nhược điểm riêng. Dựa trên các phương pháp và cách học, học máy được phân loại thành bốn loại chính:
 
-2. Unsupervised machine learning
-Unsupervised learning refers to a learning technique that’s devoid of supervision. Here, the machine is trained using an unlabeled dataset and is enabled to predict the output without any supervision. An unsupervised learning algorithm aims to group the unsorted dataset based on the input’s similarities, differences, and patterns.
+1. **Học máy có giám sát**
+Loại học máy này yêu cầu giám sát, nơi máy tính được huấn luyện trên các bộ dữ liệu đã gắn nhãn và có thể dự đoán đầu ra dựa trên dữ liệu huấn luyện. Bộ dữ liệu đã gắn nhãn chỉ rõ rằng một số tham số đầu vào và đầu ra đã được ánh xạ sẵn. Vì vậy, máy tính được huấn luyện với đầu vào và đầu ra tương ứng.
 
-For example, consider an input dataset of images of a fruit-filled container. Here, the images are not known to the machine learning model. When we input the dataset into the ML model, the task of the model is to identify the pattern of objects, such as color, shape, or differences seen in the input images and categorize them. Upon categorization, the machine then predicts the output as it gets tested with a test dataset.
+- **Phân loại**: Xử lý các vấn đề phân loại với đầu ra biến là dạng phân loại (ví dụ: đúng/sai, nam/nữ).
+- **Hồi quy**: Xử lý các vấn đề hồi quy, nơi các biến đầu vào và đầu ra có mối quan hệ tuyến tính. Đây là những thuật toán dùng để dự đoán các biến đầu ra liên tục.
 
-Unsupervised machine learning is further classified into two types:
+2. **Học máy không giám sát**
+Học máy không giám sát là phương pháp học không có sự giám sát. Máy tính được huấn luyện trên một bộ dữ liệu không gắn nhãn và có thể tự dự đoán đầu ra mà không cần sự giám sát.
 
-Clustering: The clustering technique refers to grouping objects into clusters based on parameters such as similarities or differences between objects. For example, grouping customers by the products they purchase.
-Some known clustering algorithms include the K-Means Clustering Algorithm, Mean-Shift Algorithm, DBSCAN Algorithm, Principal Component Analysis, and Independent Component Analysis.
+- **Phân nhóm (Clustering)**: Các đối tượng được phân nhóm dựa trên các tham số giống hoặc khác nhau.
+- **Hiệp hội (Association)**: Xác định các mối quan hệ điển hình giữa các biến trong một bộ dữ liệu lớn.
 
-Association: Association learning refers to identifying typical relations between the variables of a large dataset. It determines the dependency of various data items and maps associated variables. Typical applications include web usage mining and market data analysis.
-Popular algorithms obeying association rules include the Apriori Algorithm, Eclat Algorithm, and FP-Growth Algorithm.
+3. **Học máy bán giám sát**
+Học máy bán giám sát kết hợp cả hai kiểu học giám sát và không giám sát, sử dụng sự kết hợp của cả bộ dữ liệu đã gắn nhãn và không gắn nhãn.
 
-3. Semi-supervised learning
-Semi-supervised learning comprises characteristics of both supervised and unsupervised machine learning. It uses the combination of labeled and unlabeled datasets to train its algorithms. Using both types of datasets, semi-supervised learning overcomes the drawbacks of the options mentioned above.
+4. **Học máy tăng cường (Reinforcement Learning)**
+Đây là một quá trình học dựa trên phản hồi. AI tự động học hỏi và cải thiện hiệu suất qua các hành động, nhận thưởng cho hành động đúng và bị phạt cho hành động sai. Học máy tăng cường không sử dụng dữ liệu đã gắn nhãn mà học qua kinh nghiệm.
 
-Consider an example of a college student. A student learning a concept under a teacher’s supervision in college is termed supervised learning. In unsupervised learning, a student self-learns the same concept at home without a teacher’s guidance. Meanwhile, a student revising the concept after learning under the direction of a teacher in college is a semi-supervised form of learning. 
+- **Học tăng cường tích cực (Positive reinforcement)**: Thêm một kích thích sau hành động của tác nhân để làm tăng khả năng hành động đó xảy ra trong tương lai.
+- **Học tăng cường tiêu cực (Negative reinforcement)**: Củng cố hành vi để tránh kết quả tiêu cực.
 
-4. Reinforcement learning
-Reinforcement learning is a feedback-based process. Here, the AI component automatically takes stock of its surroundings by the hit & trial method, takes action, learns from experiences, and improves performance. The component is rewarded for each good action and penalized for every wrong move. Thus, the reinforcement learning component aims to maximize the rewards by performing good actions.
-
-Unlike supervised learning, reinforcement learning lacks labeled data, and the agents learn via experiences only. Consider video games. Here, the game specifies the environment, and each move of the reinforcement agent defines its state. The agent is entitled to receive feedback via punishment and rewards, thereby affecting the overall game score. The ultimate goal of the agent is to achieve a high score.
-
-Reinforcement learning is applied across different fields such as game theory, information theory, and multi-agent systems. Reinforcement learning is further divided into two types of methods or algorithms:
-
-Positive reinforcement learning: This refers to adding a reinforcing stimulus after a specific behavior of the agent, which makes it more likely that the behavior may occur again in the future, e.g., adding a reward after a behavior.
-Negative reinforcement learning: Negative reinforcement learning refers to strengthening a specific behavior that avoids a negative outcome.

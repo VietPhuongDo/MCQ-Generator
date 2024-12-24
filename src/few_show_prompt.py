@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 Template = '''\
 You are an expert in the creation of multi choice questions. \
@@ -16,6 +16,6 @@ Using following text to generate muti choice questions based on above instructio
 '''
 
 mcq_prompt = PromptTemplate(
-    input_variables=['number','difficulty','text'],
+    input_variables=['number', 'difficulty', 'text'],
     template=Template
 )
